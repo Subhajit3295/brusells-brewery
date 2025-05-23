@@ -1,11 +1,13 @@
+import Features from "@/components/Features";
 import Hero from "@/components/Hero";
-import Navbar from "@/components/Navbar";
-import Image from "next/image";
+import SocialMedia from "@/components/SocialMedia";
 
 export default function Home() {
   return (
     <>
     <Hero/>
+    <Features/>
+    <SocialMedia/>
     </>
   );
 }

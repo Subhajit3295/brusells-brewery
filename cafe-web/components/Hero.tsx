@@ -5,7 +5,7 @@ import AnimatedContent from "./Animations/AnimatedContent";
 
 const Hero = () => {
   return (
-    <section className="bg-[#eed7bd] relative top-20 h-[90svh] px-5 md:px-8 lg:px-10 xl:px-0">
+    <section className="bg-[#eed7bd] relative top-0 h-[100svh] px-5 md:px-8 lg:px-10 xl:px-0">
       <main className="h-full max-w-7xl mx-auto flex md:flex-col lg:flex-row relative">
         <AnimatedContent
           distance={150}
