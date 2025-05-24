@@ -5,7 +5,7 @@ import Navbar from "@/components/Navbar";
 
 
 export const metadata: Metadata = {
-  title: 'Brusells Brewery | Brewed To Perfection, Served With Love',
+  title: 'Brusells Brewery',
   description: 'Indulge in handcrafted coffee, freshly baked pastries, and a welcoming atmosphere in Brussels.',
   openGraph: {
     title: 'Brusells Brewery – Brewed To Perfection',
