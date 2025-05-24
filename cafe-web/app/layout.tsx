@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-
+import { ReactLenis } from "@/components/utils/lenis";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 
@@ -27,11 +27,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+    <ReactLenis root>
+
       <body className="bg-[#eed7bd]" 
       >
         <Navbar/>
         {children}
       </body>
+    </ReactLenis>
     </html>
   );
 }
