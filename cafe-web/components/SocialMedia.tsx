@@ -1,6 +1,6 @@
 import React from "react";
-import { FaInstagram } from "react-icons/fa";
-import { FaFacebookSquare } from "react-icons/fa";
+import { FaInstagram, FaFacebookSquare } from "react-icons/fa";
+// import { FaFacebookSquare } from "react-icons/fa";
 
 const SocialMedia = () => {
   return (

@@ -5,7 +5,7 @@ import AnimatedContent from "./Animations/AnimatedContent";
 
 const Hero = () => {
   return (
-    <section className="bg-[#eed7bd] relative top-0 h-[100svh] px-5 md:px-8 lg:px-10 xl:px-0">
+    <section className="bg-primary relative top-0 h-[100svh] px-5 md:px-8 lg:px-10 xl:px-0">
       <main className="h-full max-w-7xl mx-auto flex md:flex-col lg:flex-row relative">
         <AnimatedContent
           distance={150}
@@ -24,10 +24,10 @@ const Hero = () => {
               subheading="Indulge in handcrafted coffee, freshly baked pastries, and a welcoming atmosphere designed to inspire and unwind."
             />
             <div className="w-full flex gap-5">
-              <button className="bg-primary px-6 py-2 rounded-md text-white hover:cursor-pointer hover:bg-[#3d302c] active:bg-[#2b211f]">
+              <button className="bg-dark px-6 py-2 rounded-md text-white hover:cursor-pointer hover:bg-[#3d302c] active:bg-[#2b211f]">
                 Visit Cafe
               </button>
-              <button className="hover:bg-primary border-2 hover:text-white border-primary px-6 py-2 rounded-md text-primary hover:cursor-pointer active:bg-[#2b211f] duration-300">
+              <button className="hover:bg-dark border-2 hover:text-white border-dark px-6 py-2 rounded-md text-dark hover:cursor-pointer active:bg-[#2b211f] duration-300">
                 Find a location
               </button>
             </div>

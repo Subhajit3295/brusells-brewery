@@ -6,7 +6,7 @@ import FeatureComponent from "./FeatureComponent";
 const Features = () => {
   return (
     <section className="bg-[#262324] text-[#d2b7a1] h-auto lg:h-full w-full p-5">
-      <div className="h-full w-full max-w-7xl mx-auto flex flex-col gap-10">
+      <main className="h-full w-full max-w-7xl mx-auto flex flex-col gap-10">
         <AnimatedContent
           distance={150}
           direction="horizontal"
@@ -66,7 +66,7 @@ const Features = () => {
             />
           </div>
         </AnimatedContent>
-      </div>
+      </main>
     </section>
   );
 };

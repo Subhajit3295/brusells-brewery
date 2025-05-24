@@ -32,7 +32,7 @@ const Navbar = () => {
           <a href="" className="e">
             Contact
           </a>
-          <button className="bg-primary px-6 py-2 rounded-xl text-white hover:cursor-pointer hover:bg-[#3d302c] active:bg-[#2b211f]">
+          <button className="bg-dark px-6 py-2 rounded-xl text-white hover:cursor-pointer hover:bg-[#3d302c] active:bg-[#2b211f]">
             Visit Cafe
           </button>
         </div>
