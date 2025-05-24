@@ -2,9 +2,21 @@ import React from "react";
 import { Heading } from "./Heading";
 import Image from "next/image";
 import AnimatedContent from "./Animations/AnimatedContent";
+import Head from "next/head";
 
 const Hero = () => {
   return (
+    <>
+     <Head>
+      <title>Brusells Brewery | Brewed To Perfection, Served With Love</title>
+      <meta name="description" content="Indulge in handcrafted coffee, freshly baked pastries, and a welcoming atmosphere in Brussels." />
+      <link rel="canonical" href="https://brusells-brewery.vercel.app/" />
+      <meta property="og:title" content="Brusells Brewery – Brewed To Perfection" />
+      <meta property="og:description" content="Visit our café in Brussels for the best coffee and pastries." />
+      <meta property="og:url" content="https://brusells-brewery.vercel.app" />
+      <meta property="og:image" content="https://brusells-brewery.vercel.app" />
+      <meta name="twitter:card" content="summary_large_image" />
+    </Head>
     <section className="bg-primary relative top-0 h-[100svh] px-5 md:px-8 lg:px-10 xl:px-0">
       <main className="h-full max-w-7xl mx-auto flex md:flex-col lg:flex-row relative">
         <AnimatedContent
@@ -45,6 +57,7 @@ const Hero = () => {
         </div>
       </main>
     </section>
+    </>
   );
 };
 
