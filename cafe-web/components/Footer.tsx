@@ -2,6 +2,7 @@ import Image from "next/image";
 import React from "react";
 import { FaInstagram, FaFacebookF, FaGoogle } from "react-icons/fa";
 import Head from "next/head";
+import { merriweather, playfairDisplay } from "./Fonts/fonts";
 
 const address = [
   {
@@ -54,15 +55,14 @@ const Footer = () => {
       </Head>
       <footer className="bg-[#262324] text-primary min-h-fit w-full">
         <div className="max-w-7xl p-8 flex flex-col items-center mx-auto">
-          <h2 className="text-center text-4xl md:text-6xl font-bold mb-8">
+          <h2 className={`text-center text-4xl md:text-6xl font-bold mb-8 ${playfairDisplay.className}`}>
             Locations
           </h2>
           <div className="w-full flex flex-col md:flex-row justify-around  gap-10">
-            {/* Add your location cards/content here */}
             {address.map((location, index) => (
               <div className="p-4  rounded-lg w-full" key={index}>
-                <h3 className="text-xl font-semibold mb-2">{location.title}</h3>
-                <div className="w-1/3 mb-2 border border-primary"></div>
+                <h3 className={`text-xl font-semibold mb-2 ${playfairDisplay.className}`}>{location.title}</h3>
+                <div className={`w-1/3 mb-2 border border-primary ${merriweather.className}`}></div>
                 <p>{location.address}</p>
                 <p>
                   {location.state}, {location.country}, {location.zip}

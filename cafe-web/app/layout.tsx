@@ -4,6 +4,8 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 
 
+
+
 export const metadata: Metadata = {
   title: 'Brusells Brewery',
   description: 'Indulge in handcrafted coffee, freshly baked pastries, and a welcoming atmosphere in Brussels.',
