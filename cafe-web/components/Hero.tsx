@@ -20,7 +20,7 @@ const Hero = () => {
     <section className="bg-primary relative top-0 h-[100svh] px-5 md:px-8 lg:px-10 xl:px-0">
       <main className="h-full max-w-7xl mx-auto flex md:flex-col lg:flex-row relative">
         <AnimatedContent
-          distance={150}
+          distance={100}
           direction="horizontal"
           reverse={true}
           config={{ tension: 80, friction: 20 }}
@@ -36,10 +36,10 @@ const Hero = () => {
               subheading="Indulge in handcrafted coffee, freshly baked pastries, and a welcoming atmosphere designed to inspire and unwind."
             />
             <div className="w-full flex gap-5">
-              <button className="bg-dark px-6 py-2 rounded-md text-white hover:cursor-pointer hover:bg-[#3d302c] active:bg-[#2b211f]">
+              <button className="bg-dark px-6 py-2 rounded-md text-white hover:cursor-pointer hover:bg-[#3d302c] active:bg-[#2b211f] active:scale-105 duration-300">
                 Visit Cafe
               </button>
-              <button className="hover:bg-dark border-2 hover:text-white border-dark px-6 py-2 rounded-md text-dark hover:cursor-pointer active:bg-[#2b211f] duration-300">
+              <button className="hover:bg-dark border-2 hover:text-white border-dark px-6 py-2 rounded-md text-dark hover:cursor-pointer active:bg-[#2b211f] active:scale-105 duration-300">
                 Find a location
               </button>
             </div>

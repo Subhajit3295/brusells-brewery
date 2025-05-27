@@ -98,7 +98,7 @@ const Footer = () => {
                 />
                 <button
                   type="submit"
-                  className="bg-primary text-dark py-2 px-5 rounded-lg font-bold flex-2 hover:text-primary hover:bg-dark active:bg-[#262324] duration-200"
+                  className="bg-primary text-dark py-2 px-5 rounded-lg font-bold flex-2 hover:text-primary hover:bg-dark active:bg-[#262324] duration-300 active:scale-110"
                 >
                   Subscribe
                 </button>
@@ -135,7 +135,7 @@ const Footer = () => {
             </div>
             <div className="w-full h-full flex flex-col md:flex-row md:justify-between justify-center items-center gap-2">
               <p>&copy;2025 Brusells Brewery. All rights reserved</p>
-              <p>Created By Subhajit❤</p>
+              <p>Developed and maintained By Subhajit</p>
             </div>
           </div>
         </div>

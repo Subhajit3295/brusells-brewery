@@ -3,7 +3,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <header className="w-full h-20 fixed z-50 bg-transparent backdrop-blur-sm">
+    <header className="w-full h-20 fixed z-50 bg-primary backdrop-blur-sm">
       <nav className="max-w-7xl md:w-[90%] h-full mx-auto flex justify-between items-center">
         <div className="h-full w-fit flex items-center">
           <Image

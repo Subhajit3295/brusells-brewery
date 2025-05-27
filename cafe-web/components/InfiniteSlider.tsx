@@ -59,8 +59,8 @@ const InfiniteSlider = () => {
       <div className="slider max-h-[350px] w-full flex overflow-x-auto">
         {images.map((image, index) => (
           <FadeContent
-            blur={true}
-            duration={1000}
+            blur={false}
+            duration={300}
             easing="linear"
             initialOpacity={0}
             key={index}
