@@ -3,6 +3,7 @@ import { Playfair_Display, Merriweather } from "next/font/google";
 
 export const playfairDisplay = Playfair_Display({
   weight: '400',
+  subsets: ['latin']
 });
 
 export const merriweather = Merriweather({
